@@ -1,1 +1,0 @@
-## PasswordStore Android/iOS
