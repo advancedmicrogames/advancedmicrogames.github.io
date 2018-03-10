@@ -1,5 +1,5 @@
 ## Welcome to Advanced Micro Games
-[img](logo.jpg)
+[mage](logo.jpg)
 ### Unity Asset
 [PasswordStore Android/iOS](PasswordStoreAndroidiOS.md)
 ### Support or Contact
