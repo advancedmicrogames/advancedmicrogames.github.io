@@ -1,4 +1,4 @@
-## Welcome to GitHub Pages
+## Welcome to Advanced Micro Games
 
 You can use the [editor on GitHub](https://github.com/advancedmicrogames/advancedmicrogames.github.io/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
 
