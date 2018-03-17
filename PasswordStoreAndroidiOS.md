@@ -31,6 +31,7 @@ Application Persistent DataPath/KeyName.AMGPrefs
 ## Set password
 ### Set password string to store
 using AMGPasswordStore;
+
 AMGPrefs.SetString("KeyName","PasswordString");
 
 ### Set password int to store
@@ -42,7 +43,7 @@ using AMGPasswordStore;
 AMGPrefs.SetFloat("KeyName", passwordFloat);
 
 ## Get password
-## Get password string from store
+### Get password string from store
 using AMGPasswordStore;
 string password = AMGPrefs.GetString("KeyName");
 
@@ -50,7 +51,6 @@ string password = AMGPrefs.GetString("KeyName");
 using AMGPasswordStore;
 int password = AMGPrefs.GetInt("KeyName");
 
-## Get password float from store
 ### Get password float from store
 using AMGPasswordStore;
 float password = AMGPrefs.GetFloat("KeyName");
