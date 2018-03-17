@@ -31,56 +31,45 @@ Application Persistent DataPath/KeyName.AMGPrefs
 ## Manual
 ## Set password
 ### Set password string to store
-using AMGPasswordStore;
-AMGPrefs.SetString("KeyName","PasswordString");
+AMGPasswordStore.AMGPrefs.SetString("KeyName","PasswordString");
 
 ### Set password int to store
-using AMGPasswordStore;
-AMGPrefs.SetInt("KeyName",p asswordInt);
+AMGPasswordStore.AMGPrefs.SetInt("KeyName",p asswordInt);
 
 ### Set password float to store
-using AMGPasswordStore;
-AMGPrefs.SetFloat("KeyName", passwordFloat);
+AMGPasswordStore.AMGPrefs.SetFloat("KeyName", passwordFloat);
 
 ## Get password
 ### Get password string from store
-using AMGPasswordStore;
-string password = AMGPrefs.GetString("KeyName");
+AMGPasswordStore.string password = AMGPrefs.GetString("KeyName");
 
 ### Get password int from store
-using AMGPasswordStore;
-int password = AMGPrefs.GetInt("KeyName");
+AMGPasswordStore.int password = AMGPrefs.GetInt("KeyName");
 
 ### Get password float from store
-using AMGPasswordStore;
-float password = AMGPrefs.GetFloat("KeyName");
+AMGPasswordStore.float password = AMGPrefs.GetFloat("KeyName");
 
 ### Get password string from store with default value
-using AMGPasswordStore;
-string password = AMGPrefs.GetString("KeyName", "DefaultString");
+AMGPasswordStore.string password = AMGPrefs.GetString("KeyName", "DefaultString");
 
 ### Get password int from store with default value
-using AMGPasswordStore;
-int password = AMGPrefs.GetInt("KeyName", defaultInt);
+AMGPasswordStore.int password = AMGPrefs.GetInt("KeyName", defaultInt);
 
 ### Get password foat from store with default value
-using AMGPasswordStore;
-float password = AMGPrefs.GetFloat("KeyName",defaultFloat);
+AMGPasswordStore.float password = AMGPrefs.GetFloat("KeyName",defaultFloat);
 
 ## Delete key
 ### Delete one key
-using AMGPasswordStore;
-AMGPrefs.DeleteKey("KeyName");
+AMGPasswordStore.AMGPrefs.DeleteKey("KeyName");
 
 ### Delete all keys
-AMGPrefs.DeleteAll();
+AMGPasswordStore.AMGPrefs.DeleteAll();
 
 ## Has key
-using AMGPasswordStore;
-bool has = AMGPrefs.HasKey("KeyName");
+AMGPasswordStore.bool has = AMGPrefs.HasKey("KeyName");
 
 ## Dummy Method "Save()"
-AMGPrefs.Save(); is dammy method.
+AMGPasswordStore.AMGPrefs.Save(); is dummy method.
 Saving automaticaly when you set password.
 It is using for migrate from PlayerPrefts to AMGPrefs.
 
