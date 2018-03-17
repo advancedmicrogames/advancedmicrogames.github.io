@@ -31,7 +31,6 @@ Application Persistent DataPath/KeyName.AMGPrefs
 ## Set password
 ### Set password string to store
 using AMGPasswordStore;
-
 AMGPrefs.SetString("KeyName","PasswordString");
 
 ### Set password int to store
