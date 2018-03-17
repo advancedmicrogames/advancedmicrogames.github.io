@@ -79,7 +79,7 @@ AMGPrefs.DeleteAll();
 using AMGPasswordStore;
 bool has = AMGPrefs.HasKey("KeyName");
 
-## Dammy Method "Save()"
+## Dummy Method "Save()"
 AMGPrefs.Save(); is dammy method.
 Saving automaticaly when you set password.
 It is using for migrate from PlayerPrefts to AMGPrefs.
