@@ -74,24 +74,24 @@ Saving automaticaly when you set password.
 It is using for migrate from PlayerPrefts to AMGPrefs.
 
 ### Migrate example
-// PlayerPrefs code
-using UnityEngine;
-public class Example : MonoBehaviour {
-    public void method1(){
-        PlayerPrefts.SetString("KeyName", "Password");
-        PlayerPrefts.Save();
-    }
-}
-
-// Add namespace "using AMGPasswordStore;" and replace "PlayerPrefts" to "AMGPrefs".
-
-// AMGPrefs code
-using UnityEngine;
-using AMGPasswordStore;
-public class Example : MonoBehaviour {
-    public void method1(){
-        AMGPrefs.SetString("KeyName", "Password");
-        AMGPrefs.Save();
-    }
-}
+// PlayerPrefs code  
+using UnityEngine;  
+public class Example : MonoBehaviour { 
+    public void method1(){ 
+        PlayerPrefts.SetString("KeyName", "Password"); 
+        PlayerPrefts.Save(); 
+    }  
+}  
+　　
+// Add namespace "using AMGPasswordStore;" and replace "PlayerPrefts" to "AMGPrefs".  
+　
+// AMGPrefs code   
+using UnityEngine;  
+using AMGPasswordStore;  
+public class Example : MonoBehaviour { 
+        public void method1(){ 
+        AMGPrefs.SetString("KeyName", "Password"); 
+        AMGPrefs.Save(); 
+    }  
+}  
 
