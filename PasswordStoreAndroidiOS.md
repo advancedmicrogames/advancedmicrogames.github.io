@@ -22,9 +22,9 @@ Project -> Assets -> AMGPasswordStore -> Plugins -> iOS -> SAMKeychain -> Select
 File -> Buid Settings -> select "Android" -> "Player Settings..." -> "Minimum API Level" : "Android 4.3'Jelly Bean'(API Level 18)" or later 
 
 ## Location of crypted password data
-## iOS
+### iOS
 KeyChain fo iOS
-## Android
+### Android
 Application Persistent DataPath/KeyName.AMGPrefs
 
 ## Manual
