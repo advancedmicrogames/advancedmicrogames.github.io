@@ -16,6 +16,7 @@ KeyStore and RSA (Android 4.3 or later Excluding a few exceptions).
 ## Build Settings
 ### iOS(Keychain)
 File -> Buid Settings -> Select "iOS" -> "Player Settings..." -> "Target minimum iOS Version" : "8.0" or later
+
 Project -> Assets -> AMGPasswordStore -> Plugins -> iOS -> SAMKeychain -> Select "SAMKeychain.h" -> Inspector  -> Platfome Settings -> Framework Dependencies -> check "Security"
 
 ### Android(KeyStore)
