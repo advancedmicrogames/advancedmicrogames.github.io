@@ -8,9 +8,9 @@ Write once run on both iOS/Android plathome
 Easy-to-use code similar to PlayerPrefs
 
 ## Requirements
-## iOS
+### iOS
 iOS 8 to 11
-## Android
+### Android
 KeyStore and RSA (Android 4.3 or later Excluding a few exceptions).
 
 ## Build Settings
@@ -29,15 +29,15 @@ Application Persistent DataPath/KeyName.AMGPrefs
 
 ## Manual
 ## Set password
-# Set password string to store
+### Set password string to store
 using AMGPasswordStore;
 AMGPrefs.SetString("KeyName","PasswordString");
 
-# Set password int to store
+### Set password int to store
 using AMGPasswordStore;
 AMGPrefs.SetInt("KeyName",p asswordInt);
 
-# Set password float to store
+### Set password float to store
 using AMGPasswordStore;
 AMGPrefs.SetFloat("KeyName", passwordFloat);
 
@@ -46,32 +46,33 @@ AMGPrefs.SetFloat("KeyName", passwordFloat);
 using AMGPasswordStore;
 string password = AMGPrefs.GetString("KeyName");
 
-# Get password int from store
+### Get password int from store
 using AMGPasswordStore;
 int password = AMGPrefs.GetInt("KeyName");
 
-# Get password float from store
+## Get password float from store
+### Get password float from store
 using AMGPasswordStore;
 float password = AMGPrefs.GetFloat("KeyName");
 
-# Get password string from store with default value
+### Get password string from store with default value
 using AMGPasswordStore;
 string password = AMGPrefs.GetString("KeyName", "DefaultString");
 
-# Get password int from store with default value
+### Get password int from store with default value
 using AMGPasswordStore;
 int password = AMGPrefs.GetInt("KeyName", defaultInt);
 
-# Get password foat from store with default value
+### Get password foat from store with default value
 using AMGPasswordStore;
 float password = AMGPrefs.GetFloat("KeyName",defaultFloat);
 
 ## Delete key
-# Delete one key
+### Delete one key
 using AMGPasswordStore;
 AMGPrefs.DeleteKey("KeyName");
 
-# Delete all keys
+## Delete all keys
 AMGPrefs.DeleteAll();
 
 ## Has key
@@ -83,7 +84,7 @@ AMGPrefs.Save(); is dammy method.
 Saving automaticaly when you set password.
 It is using for migrate from PlayerPrefts to AMGPrefs.
 
-# Migrate example
+### Migrate example
 // PlayerPrefs code
 using UnityEngine;
 public class Example : MonoBehaviour {
