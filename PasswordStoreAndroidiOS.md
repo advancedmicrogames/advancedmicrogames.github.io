@@ -1,7 +1,7 @@
 # PasswordStore Android/iOS
 
 ## Introduction
-This asset is a security password store for iOS/Android.
+This asset is a crypted password store for iOS/Android.
 ## Goodies
 No keys on source code  
 Write once run on both iOS/Android plathome  
