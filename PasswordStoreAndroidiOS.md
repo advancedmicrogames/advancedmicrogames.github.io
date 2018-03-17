@@ -3,10 +3,10 @@
 ## Introduction
 This asset is a security password store for iOS/Android.
 ## Goodies
-No keys on source code
-Write once run on both iOS/Android plathome
-Easy-to-use code similar to PlayerPrefs
-
+No keys on source code  
+Write once run on both iOS/Android plathome  
+Easy-to-use code similar to PlayerPrefs  
+  
 ## Requirements
 ### iOS
 iOS 8 to 11
@@ -69,10 +69,10 @@ AMGPasswordStore.AMGPrefs.DeleteAll();
 AMGPasswordStore.bool has = AMGPrefs.HasKey("KeyName");
 
 ## Dummy Method "Save()"
-AMGPasswordStore.AMGPrefs.Save(); is dummy method.
-Saving automaticaly when you set password.
-It is using for migrate from PlayerPrefts to AMGPrefs.
-
+AMGPasswordStore.AMGPrefs.Save(); is dummy method.  
+Saving automaticaly when you set password.  
+It is using for migrate from PlayerPrefts to AMGPrefs.  
+  
 ### Migrate example
 // PlayerPrefs code  
 using UnityEngine;  
@@ -82,9 +82,11 @@ public class Example : MonoBehaviour {
         PlayerPrefts.Save(); 
     }  
 }  
-　　
+    
+      
 // Add namespace "using AMGPasswordStore;" and replace "PlayerPrefts" to "AMGPrefs".  
-　
+  
+    
 // AMGPrefs code   
 using UnityEngine;  
 using AMGPasswordStore;  
