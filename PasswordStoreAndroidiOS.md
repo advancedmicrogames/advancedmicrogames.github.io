@@ -42,7 +42,7 @@ using AMGPasswordStore;
 AMGPrefs.SetFloat("KeyName", passwordFloat);
 
 ## Get password
-# Get password string from store
+## Get password string from store
 using AMGPasswordStore;
 string password = AMGPrefs.GetString("KeyName");
 
@@ -72,7 +72,7 @@ float password = AMGPrefs.GetFloat("KeyName",defaultFloat);
 using AMGPasswordStore;
 AMGPrefs.DeleteKey("KeyName");
 
-## Delete all keys
+### Delete all keys
 AMGPrefs.DeleteAll();
 
 ## Has key
