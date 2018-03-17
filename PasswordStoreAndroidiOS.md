@@ -2,32 +2,32 @@
 
 ## Introduction
 This asset is a security password store for iOS/Android.
-### Goodies
+## Goodies
 No keys on source code
 Write once run on both iOS/Android plathome
 Easy-to-use code similar to PlayerPrefs
 
 ## Requirements
-### iOS
+## iOS
 iOS 8 to 11
-### Android
+## Android
 KeyStore and RSA (Android 4.3 or later Excluding a few exceptions).
 
 ## Build Settings
-### iOS(Keychain)
+## iOS(Keychain)
 File -> Buid Settings -> Select "iOS" -> "Player Settings..." -> "Target minimum iOS Version" : "8.0" or later
 Project -> Assets -> AMGPasswordStore -> Plugins -> iOS -> SAMKeychain -> Select "SAMKeychain.h" -> Inspector  -> Platfome Settings -> Framework Dependencies -> check "Security"
 
-### Android(KeyStore)
+## Android(KeyStore)
 File -> Buid Settings -> select "Android" -> "Player Settings..." -> "Minimum API Level" : "Android 4.3'Jelly Bean'(API Level 18)" or later 
 
-### Location of crypted password data
+## Location of crypted password data
 # iOS
 KeyChain fo iOS
 # Android
 Application Persistent DataPath/KeyName.AMGPrefs
 
-### Manual
+## Manual
 ## Set password
 # Set password string to store
 using AMGPasswordStore;
