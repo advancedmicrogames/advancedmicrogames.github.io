@@ -4,7 +4,7 @@
 This asset is a crypted password store for iOS/Android.
 ## Goodies
 No keys on source code  
-Write once run on both iOS/Android plathome  
+Once you code it, you can run it on both iOS/Android plathome   
 Easy-to-use code similar to PlayerPrefs  
   
 ## Requirements
